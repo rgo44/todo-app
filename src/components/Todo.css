@@ -1,0 +1,94 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 0 auto;
+    color: rgb(33, 36, 49);
+    background: rgb(208, 197, 231);
+    padding: 3vh 6vw;
+    border-radius: 5px;
+    width: 50vw;
+}
+
+@media screen and (max-width: 600px) {
+    .todo-row {
+        font-size: 1.8vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .todo-row {
+        font-size: 1vh;
+    }
+}
+
+.checkmark {
+    display: flex;
+    background: rgb(208, 197, 231);
+    width: 4.5vw;
+    padding: 3vh 4.5vw;
+    border-radius: 5px;
+    margin: 1vh 1vh auto 0;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .checkmark {
+        font-size: 1.8vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .checkmark{
+        font-size: 1vh;
+    }
+}
+
+
+
+.complete {
+    opacity: 0.4;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    cursor: pointer;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .icons {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .icons {
+        font-size: 1.5vh;
+    }
+}
+
+
+.delete-icon {
+    margin-right: 1vw;
+    color: rgb(247, 247, 247);
+}
+
+.edit-icon {
+    color: rgb(247, 247, 247);
+}
+
+.check-icon {
+    color: rgb(247, 247, 247);
+}
+
+.hideCheck {
+    visibility: hidden;
+}
